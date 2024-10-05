@@ -1,0 +1,15 @@
+#output {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: fit-content;
+  }
+  
+  #output::first-letter {
+    text-transform: capitalize;
+  }
+  
+  #error {
+    color: red;
+    margin-top: 10px;
+  }

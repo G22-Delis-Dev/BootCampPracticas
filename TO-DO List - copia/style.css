@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://images2.alphacoders.com/134/thumb-1920-1347484.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.principal {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    width: 500px;
+    color: white;
+    gap: 30px;
+    padding: 30px;
+}
+
+.inputtext {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.285);
+    background-color: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
+}
+
+.boton {
+    background-color: black;
+    border: 1px solid rgba(255, 255, 255, 0.285);
+    border-radius: 10px;
+    color: white;
+
+}
+
+.elimitodo {
+    background-color: black;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: rgb(255, 83, 83);
+    }
+}
+
+.elemento {
+    padding: 10px 25px;
+}
+
+.contenido {
+    display: flex;
+    width: 500px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    padding: 20px;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+
+}
+
+.li {
+    margin: 8px 0;
+    background-color: #f4f4f4;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2px;
+}
+
+input[type="checkbox"] {
+    font-size: large;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
+
+.elimi {
+    padding: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    transition: all .5s;
+
+    &:hover {
+        background-color: red;
+    }
+}

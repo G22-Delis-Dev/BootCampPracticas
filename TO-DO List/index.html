@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="principal">
+        <h1>To-Do List</h1>
+        <div class="entrada">
+            <form onsubmit="return validar () ">
+
+                <input class="elemento inputtext" type="text" id="newTaskInput" placeholder="Añade una nueva tarea aquí...">
+                <input class="elemento inputtext" type="time" id="newDateInput" name="" id="">
+                <button type="submit" class="elemento boton" id="addTaskButton">Añadir Tarea</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="contenido">
+        <h1>Tareas</h1>
+        <ul id="taskList">
+
+
+        </ul>
+        <button class="elimitodo" onclick="eliminarTodo()">Eliminar todas las tareas</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
